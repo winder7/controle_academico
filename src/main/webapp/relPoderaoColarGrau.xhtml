@@ -27,7 +27,7 @@
         </div>
         <b:column col-sm="9" offset-sm="3" col-md="10" offset="2">
             <div>
-                <b:panel title="Alunos que poderão colar grau por curso" collapsible="true" look="info" iconAwesome="graduation-cap" icon-size="lg" >
+                <b:panel title="Alunos que podem colar grau por curso" collapsible="true" look="info" iconAwesome="graduation-cap" icon-size="lg" >
                     <b:form>
                         <b:row>
                             <b:selectOneMenu select2="true" value="#{poderaoColarGrauBean.codCurso}"  label="Curso" tiny-screen="half" required="true">
@@ -40,7 +40,7 @@
                 </b:panel>
             </div>
             <div>
-                <b:panel id="Tabela" class="painel3" collapsible="false" title="Alunos que poderão colar grau no curso #{poderaoColarGrauBean.itensBoxCurso.get(poderaoColarGrauBean.codCurso)}" iconAwesome="table" icon-size="lg" look="info" rendered="true">
+                <b:panel id="Tabela" class="painel3" collapsible="false" title="Alunos que podem colar grau no curso #{poderaoColarGrauBean.itensBoxCurso.get(poderaoColarGrauBean.codCurso)}" iconAwesome="table" icon-size="lg" look="info" rendered="true">
                     <b:form>
                         <b:row style="padding: 15px">
                             <b:dataTable customLangUrl="//cdn.datatables.net/plug-ins/1.10.12/i18n/Portuguese-Brasil.json" 

@@ -31,8 +31,8 @@
                 <b:dropMenu value="Relatórios" iconAwesome="file-text-o" icon-size="lg" rendered="#{loginBean.permissao.getOrDefault('4 - (MENU) RELATÓRIOS', false)}">
                     <b:dropMenu value="Relação de Alunos" icon-awesome="drivers-license-o" rendered="#{loginBean.permissao.getOrDefault('4.1 - (Sub Menu) Relação de Alunos', false)}">
                         <b:navLink href="/controle_academico/relMatriculados.xhtml" value="Matriculados" icon-awesome="address-book-o" rendered="#{loginBean.permissao.getOrDefault('4.1.1 - Matriculados', false)}"/>
-                        <b:navLink href="/controle_academico/relPoderaoColarGrau.xhtml" value="Poderão Colar Grau" icon-awesome="graduation-cap" rendered="#{loginBean.permissao.getOrDefault('4.1.2 - Poderão Colar Grau', false)}"/>
-                        <b:navLink href="/controle_academico/relPodemColarGrau.xhtml" value="Podem Colar Grau" icon-awesome="flag" rendered="#{loginBean.permissao.getOrDefault('4.1.3 - Podem Colar Grau', false)}"/>
+                        <b:navLink href="/controle_academico/relPoderaoColarGrau.xhtml" value="Podem Colar Grau" icon-awesome="graduation-cap" rendered="#{loginBean.permissao.getOrDefault('4.1.2 - Poderão Colar Grau', false)}"/>
+                        <b:navLink href="/controle_academico/relPodemColarGrau.xhtml" value="Irão Colar Grau" icon-awesome="flag" rendered="#{loginBean.permissao.getOrDefault('4.1.3 - Podem Colar Grau', false)}"/>
                     </b:dropMenu>
                     <b:dropMenu value="Gerenciais" icon-awesome="pie-chart" rendered="#{loginBean.permissao.getOrDefault('4.2 - (Sub Menu) Gerenciais', false)}">
                         <b:navLink href="/controle_academico/relRelacaoUsuarios.xhtml"  value="Relação de Usuários do Sistema" icon-awesome="user-circle-o" rendered="#{loginBean.permissao.getOrDefault('4.2.1 - Relação de Usuários do Sistema', false)}"/>
@@ -59,8 +59,8 @@
             </b:navbarLinks>
         </b:navBar>
         <b:modal id="amodal" title="Sobre" styleClass="modalPseudoClass">
-            <p>SHAA - SISTEMA DE HISTÓRICO ACADÊMICO DE ALUNOS - v0.75</p>
-            <p>SENAC GO - Programação para Internet GTI IV – 2018.</p>
+            <p>SHAA - SISTEMA DE HISTÓRICO ACADÊMICO DE ALUNOS - v1.0.1</p>
+            <p>SENAC GO - Programação para Internet GTI IV – 2018/2.</p>
             <p>Desenvolvido por: WAAL Software > Alexandre Almeida - Winder Rezende - Lucio Torres.</p>
             <p>© Todos os Direitos Reservados.</p>
             <f:facet name="footer">
@@ -92,8 +92,8 @@
                         <b:navLink href="#" value="Relatórios" active="true" iconAwesome="file-text-o" icon-size="lg" style="background-color: #e57373" />
                         <b:dropMenu value="Relação de Alunos" icon-awesome="drivers-license-o" rendered="#{loginBean.permissao.getOrDefault('4.1 - (Sub Menu) Relação de Alunos', false)}">
                             <b:navLink href="/controle_academico/relMatriculados.xhtml" value="Matriculados" icon-awesome="address-book-o" rendered="#{loginBean.permissao.getOrDefault('4.1.1 - Matriculados', false)}"/>
-                            <b:navLink href="/controle_academico/relPoderaoColarGrau.xhtml" value="Poderão Colar Grau" icon-awesome="graduation-cap" rendered="#{loginBean.permissao.getOrDefault('4.1.2 - Poderão Colar Grau', false)}"/>
-                            <b:navLink href="/controle_academico/relPodemColarGrau.xhtml" value="Podem Colar Grau" icon-awesome="flag" rendered="#{loginBean.permissao.getOrDefault('4.1.3 - Podem Colar Grau', false)}"/>
+                            <b:navLink href="/controle_academico/relPoderaoColarGrau.xhtml" value="Podem Colar Grau" icon-awesome="graduation-cap" rendered="#{loginBean.permissao.getOrDefault('4.1.2 - Poderão Colar Grau', false)}"/>
+                            <b:navLink href="/controle_academico/relPodemColarGrau.xhtml" value="Irão Colar Grau" icon-awesome="flag" rendered="#{loginBean.permissao.getOrDefault('4.1.3 - Podem Colar Grau', false)}"/>
                         </b:dropMenu>
                         <b:dropMenu value="Gerenciais" icon-awesome="pie-chart" rendered="#{loginBean.permissao.getOrDefault('4.2 - (Sub Menu) Gerenciais', false)}">
                             <b:navLink href="/controle_academico/relRelacaoUsuarios.xhtml"  value="Relação de Usuários do Sistema" icon-awesome="user-circle-o" rendered="#{loginBean.permissao.getOrDefault('4.2.1 - Relação de Usuários do Sistema', false)}"/>
