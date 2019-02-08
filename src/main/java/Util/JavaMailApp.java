@@ -33,7 +33,7 @@ public class JavaMailApp {
                 Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
                     @Override
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("isoinformaticati@gmail.com", "Ctrl270787");
+                        return new PasswordAuthentication("exemplo@gmail.com", "senha");
                     }
                 });
 
